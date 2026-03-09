@@ -9,6 +9,6 @@ y = [0,1,1,1,0,0,1]
 classifier = DecisionTreeClassifier(criterion='entropy', random_state=0)
 classifier.fit(X,y)
 
-X_marks=[[20]]
+X_marks=[[30]]
 
 print(classifier.predict(X_marks))
